@@ -130,6 +130,7 @@ image_colors = ImageColorGenerator(frame)
 
 plt.figure(figsize=[45,60])
 plt.imshow(wc.recolor(color_func=image_colors), interpolation="bilinear")
+
 plt.axis('off')
 plt.show()
 
