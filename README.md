@@ -1,6 +1,6 @@
 # Friends TV Show Transcript Analysis (WordCloud)
 
-This is a Python script that analyzes the text data from the transcripts of the popular TV show "Friends". The script extracts the most frequently used words in the text, cleans the text data by removing punctuations and stop words, generates a bar chart to display the count of the top 20 most frequently used words, and creates a WordCloud image of the most frequently used words with the shape of the Friends doorframe.
+This is a Python script that analyzes the text data from the transcripts of the popular TV show "Friends". The script extracts the most frequently used words in the text, cleans the text data by removing punctuations and stop words, generates a bar chart to display the count of the top 20 most frequently used words, and creates a WordCloud image of the most frequently used words in the shape of the popular Friends doorframe.
 
 ## Requirements
 
