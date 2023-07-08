@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+"""
+Created on Fri July 7 2023
+
+@author: Nada Osama
+"""
+
 # In[1]:
 
 
@@ -28,11 +34,13 @@ warnings.filterwarnings('ignore')
 
 # In[2]:
 
+
 # Reading the transcript file
 script = open('Friends_Transcript.txt','r').read()
 
 
 # In[3]:
+
 
 script[:1000]
 
@@ -47,6 +55,7 @@ script = script.lower()
 
 
 # In[5]:
+
 
 stopword = nltk.corpus.stopwords.words('english')
 
@@ -109,7 +118,7 @@ plt.tight_layout(pad = 0)
 plt.show()
 
 
-# # Recreating the WordCloud image in the shape of the famous FRIENDS doorframe :
+# # Recreating the WordCloud image in the shape of the popular Friends doorframe :
 
 # In[10]:
 
