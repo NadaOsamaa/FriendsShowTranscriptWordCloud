@@ -7,7 +7,6 @@
 # Libraries I used
 import pandas as pd
 import numpy as np
-
 import re
 import nltk
 import spacy
@@ -27,19 +26,18 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.filterwarnings('ignore')
 
 
-# In[133]:
+# In[2]:
 
-
+# Reading the transcript file
 script = open('Friends_Transcript.txt','r').read()
 
 
-# In[134]:
-
+# In[3]:
 
 script[:1000]
 
 
-# In[135]:
+# In[4]:
 
 
 # convert all the words into lowercase
@@ -48,10 +46,8 @@ script[:1000]
 script = script.lower()
 
 
-# In[137]:
+# In[5]:
 
-
-#nlp = spacy.load('en_core_web_sm')
 stopword = nltk.corpus.stopwords.words('english')
 
 def clean_text(text):
@@ -72,7 +68,7 @@ def frequent(string):
 
 # # Count of frequent words :
 
-# In[175]:
+# In[6]:
 
 
 # first 20 most said words:
@@ -80,14 +76,14 @@ frequent_words = frequent(script)
 frequent_words[:20].style.background_gradient(cmap='Reds')
 
 
-# In[139]:
+# In[7]:
 
 
 fig = px.bar(frequent_words[:20], x='Words', y='Count')
 fig.show()
 
 
-# In[179]:
+# In[8]:
 
 
 words_list = []
@@ -97,7 +93,7 @@ for i in frequent_words.Words:
 
 # # Creating the WordCloud image :
 
-# In[190]:
+# In[9]:
 
 
 wordcloud = WordCloud(width = 1000, height = 600,
@@ -115,7 +111,7 @@ plt.show()
 
 # # Recreating the WordCloud image in the shape of the famous FRIENDS doorframe :
 
-# In[184]:
+# In[10]:
 
 
 # get the working directory 
