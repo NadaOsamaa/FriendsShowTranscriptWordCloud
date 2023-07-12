@@ -42,10 +42,7 @@ The script will generate a bar chart and a WordCloud image of the most frequentl
 
 ## Credits
 
-This code was created by Nada Osama, The Friends TV show transcripts were obtained from Kaggle, And the doorframe image was obtained from Google.
+- This code was created by [Nada Osama](https://github.com/NadaOsamaa)
+- The [Friends TV show transcript](https://www.kaggle.com/datasets/divyansh22/friends-tv-show-script?resource=download) was obtained from Kaggle
+- [The doorframe image](https://m.media-amazon.com/images/I/51YmOf7PgwL._AC_UF1000,1000_QL80_.jpg) 
 
-
-The source link of the transcript used in the code:
-```
-https://www.kaggle.com/datasets/divyansh22/friends-tv-show-script?resource=download
-```
